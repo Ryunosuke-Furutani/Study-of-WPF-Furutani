@@ -2,7 +2,7 @@
 {
     class TextResource
     {
-        public static string _initialText = "Try pressing the button.";
-        public static string _greetingText = "Hellow world.";
+        public static string INITIAL_TEXT = "Try pressing the button.";
+        public static string GREETING_TEXT = "Hellow world.";
     }
 }

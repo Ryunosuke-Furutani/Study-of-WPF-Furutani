@@ -6,7 +6,7 @@ namespace HelloWpfApp
     class PushButtonCommand : ICommand
     {
         private readonly ViewModel.GreetingWindowViewModel _viewModel;
-        private readonly string _greetingText = TextResource._greetingText;
+        private readonly string _greetingText = TextResource.GREETING_TEXT;
 
         public PushButtonCommand(ViewModel.GreetingWindowViewModel viewModel)
         {
